@@ -1,0 +1,64 @@
+.App {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mediumText {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.button{
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 2rem;
+  align-self: center;
+  transition: ease-in-out 0.1s;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1c1c1c;
+  margin-inline: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resetButton {
+  background-color: #FF704D;
+}
+.resetButton:hover{
+  background-color: #FF8D70;
+}
+
+.goButton {
+  background-color: #59CE9F;
+}
+.goButton:hover {
+  background-color: #72D5AD; 
+}
+
+.answerButton {
+  background-color: #85A4FF;
+}
+
+.answerButton:hover {
+  background-color: #99B3FF;
+}
+
+button:disabled {
+  background-color: #ececec;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ececec;
+}
+

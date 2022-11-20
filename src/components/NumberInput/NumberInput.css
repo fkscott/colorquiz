@@ -1,0 +1,12 @@
+.lengthInput {
+    max-width: 250px;
+    font-size: 1.5rem;
+    align-self: center;
+  }
+  
+  .lengthLabel {
+    max-width: 250px;
+    font-size: 1.25rem;
+    align-self: center;
+    margin-bottom: 1rem;
+  }

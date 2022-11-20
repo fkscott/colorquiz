@@ -1,0 +1,14 @@
+.statItem {
+    align-self: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-inline: 0.5rem;
+}
+
+.quizStats {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+}
